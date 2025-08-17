@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Creative Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="glass-card">
+        <a href="#" class="logo">ANUJ PAWAR</a>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content animate-fade">
+            <h1>Hello, I'm <span>Web Developer</span></h1>
+            <p>Creating beautiful digital experiences that make an impact</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="cta-button">View Work</a>
+                <a href="#contact" class="cta-button secondary">Hire Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text glass-card">
+                    <p>I'm a passionate full-stack developer with 5+ years of experience building web applications. My approach combines clean code with thoughtful design to create products that are both functional and beautiful.</p>
+                    <div class="personal-info">
+                        <div>
+                            <span>Name:</span> Anuj Pawar
+                        </div>
+                        <div>
+                            <span>Email:</span> anujpwr21@gmail.com
+                        </div>
+                        <div>
+                            <span>From:</span> Valsad,Gujarat
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image glass-card">
+                    <img src="https://placehold.co/600x800" alt="Portrait of a professional web developer working on a laptop in a modern office setting">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://placehold.co/800x500" alt="E-commerce website with product listings and shopping cart interface" class="project-image">
+                    <div class="project-info">
+                        <h3>E-commerce Store</h3>
+                        <p>Full-featured online shopping platform</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://placehold.co/800x500" alt="Task management application with kanban board and productivity charts" class="project-image">
+                    <div class="project-info">
+                        <h3>Task Manager</h3>
+                        <p>Productivity app with team collaboration</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://placehold.co/800x500" alt="Fitness tracking mobile application showing workout statistics and progress charts" class="project-image">
+                    <div class="project-info">
+                        <h3>Fitness Tracker</h3>
+                        <p>Mobile app for health monitoring</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card glass-card">
+                    <i class="fas fa-code skill-icon"></i>
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, JavaScript, React</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fas fa-server skill-icon"></i>
+                    <h3>Backend</h3>
+                    <p>Node.js, Express, MongoDB, MySQL</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fas fa-mobile-alt skill-icon"></i>
+                    <h3>Mobile</h3>
+                    <p>React Native, Flutter</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fas fa-palette skill-icon"></i>
+                    <h3>Design</h3>
+                    <p>UI/UX, Figma, Adobe XD</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info glass-card">
+                    <h3>Contact Info</h3>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>anujpwr21@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 7567787803</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Valsad,Gujarat</span>
+                    </div>
+                </div>
+                <form class="contact-form glass-card">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+            </div>
+            <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
